@@ -14,6 +14,7 @@ As seguintes ferramentas estão sendo usadas na construção da API:
 - [Node.js][nodejs]
 - [Express][express]
 - [TypeScript][typescript]
+- [Docker][docker]
 - [TypeOrm][typeorm]
 - [Joi][joi]
 - [Vscode][vscode]
@@ -25,4 +26,5 @@ Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.c
 [typescript]: https://www.typescriptlang.org/
 [typeorm]: https://typeorm.io/#/
 [Joi]: https://joi.dev/api/?v=17.4.2
+[docker]: https://docs.docker.com/
 [mocha]: https://mochajs.org/
