@@ -18,6 +18,7 @@ As seguintes ferramentas estão sendo usadas na construção da API:
 - [TypeOrm][typeorm]
 - [Joi][joi]
 - [Bcrypt][bcrypt]
+- [JsonWebToken][jsonwebtoken]
 - [Vscode][vscode]
 
 Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.com/in/jeandson/)
@@ -29,4 +30,5 @@ Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.c
 [Joi]: https://joi.dev/api/?v=17.4.2
 [docker]: https://docs.docker.com/
 [bcrypt]: https://www.npmjs.com/package/bcryptjs
+[jsonwebtoken]: https://www.npmjs.com/package/jsonwebtoken
 
