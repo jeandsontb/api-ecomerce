@@ -33,4 +33,5 @@ Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.c
 [bcrypt]: https://www.npmjs.com/package/bcryptjs
 [jsonwebtoken]: https://www.npmjs.com/package/jsonwebtoken
 [multer]: https://www.npmjs.com/package/multer
+[Vscode]: https://code.visualstudio.com/
 
