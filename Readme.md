@@ -17,6 +17,7 @@ As seguintes ferramentas estão sendo usadas na construção da API:
 - [Docker][docker]
 - [TypeOrm][typeorm]
 - [Joi][joi]
+- [Bcrypt][bcrypt]
 - [Vscode][vscode]
 
 Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.com/in/jeandson/)
@@ -27,4 +28,5 @@ Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.c
 [typeorm]: https://typeorm.io/#/
 [Joi]: https://joi.dev/api/?v=17.4.2
 [docker]: https://docs.docker.com/
-[mocha]: https://mochajs.org/
+[bcrypt]: https://www.npmjs.com/package/bcryptjs
+
