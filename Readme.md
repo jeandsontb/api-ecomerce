@@ -20,6 +20,7 @@ As seguintes ferramentas estão sendo usadas na construção da API:
 - [Bcrypt][bcrypt]
 - [JsonWebToken][jsonwebtoken]
 - [Multer][multer]
+- [Date-fns][datefns]
 - [Vscode][vscode]
 
 Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.com/in/jeandson/)
@@ -33,5 +34,6 @@ Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.c
 [bcrypt]: https://www.npmjs.com/package/bcryptjs
 [jsonwebtoken]: https://www.npmjs.com/package/jsonwebtoken
 [multer]: https://www.npmjs.com/package/multer
+[datefns]: https://date-fns.org/
 [Vscode]: https://code.visualstudio.com/
 
