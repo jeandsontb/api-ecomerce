@@ -1,13 +1,37 @@
 import nodemailer from 'nodemailer';
+import HandlebarsEmailTemplate from './HandlebarsEmailTemplate';
+
+interface MailContact {
+  name: string;
+  email: string;
+}
+
+interface TemplateVariables {
+  [key: string]: string | number;
+}
+
+interface ParseMailTemplate {
+  template: string;
+  variables: TemplateVariables;
+}
 
 interface SendEmail {
-  to: string;
-  body: string;
+  to: MailContact;
+  from?: MailContact;
+  subject: string;
+  templateData: ParseMailTemplate;
 }
 
 export default class EtherealMail {
-  static async sendEmail({ to, body }: SendEmail): Promise<void> {
+  static async sendEmail({
+    to,
+    from,
+    subject,
+    templateData,
+  }: SendEmail): Promise<void> {
     const account = await nodemailer.createTestAccount();
+
+    const mailTemplate = new HandlebarsEmailTemplate();
 
     const transport = nodemailer.createTransport({
       host: account.smtp.host,
@@ -19,10 +43,16 @@ export default class EtherealMail {
       },
     });
     const message = await transport.sendMail({
-      from: 'equipe@ecomerce.com.br',
-      to,
-      subject: 'Recuperação de senha',
-      text: body,
+      from: {
+        name: from?.name || 'Equipe Ecomerce',
+        address: from?.email || 'equipe@ecomerce.com.br',
+      },
+      to: {
+        name: to.name,
+        address: to.email,
+      },
+      subject,
+      html: await mailTemplate.parse(templateData),
     });
 
     console.log('Message sent: %s', message.messageId);

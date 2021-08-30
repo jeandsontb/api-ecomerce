@@ -21,6 +21,8 @@ As seguintes ferramentas estão sendo usadas na construção da API:
 - [JsonWebToken][jsonwebtoken]
 - [Multer][multer]
 - [Date-fns][datefns]
+- [Ethereal][ethereal]
+- [Handlebars][handlebars]
 - [Vscode][vscode]
 
 Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.com/in/jeandson/)
@@ -35,5 +37,7 @@ Feito com ❤️ por Jeandson Tenorio 👋🏽 [Contato!](https://www.linkedin.c
 [jsonwebtoken]: https://www.npmjs.com/package/jsonwebtoken
 [multer]: https://www.npmjs.com/package/multer
 [datefns]: https://date-fns.org/
+[ethereal]: https://ethereal.email/
+[handlebars]: https://handlebarsjs.com/
 [Vscode]: https://code.visualstudio.com/
 
